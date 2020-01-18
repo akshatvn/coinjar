@@ -3,7 +3,7 @@
 <h4>LAST_ASK: <%= @currency.last_ask %><br/></h4>
 <h4>LAST_BID: <%= @currency.last_bid %><br/></h4>
 <h4>UPDATED_AT: <%= @currency.updated_at %><br/></h4>
-<td><%= button_to 'Get New Snapshot', {controller: "currency_snapshots", action: "capture", code: @currency.code} , :method=>:post  %></td>
+<td><%= button_to 'Get New Snapshot', {controller: "currency_snapshots", action: "capture", code: @currency.code} , :method=>:post, class: "coinjar-button"  %></td>
 
 <h4> SNAPSHOTS </h4>
 <table>
@@ -24,19 +24,19 @@
   <tbody>
     <% @snapshots.each do |snapshot| %>
       <tr>
-        <th><%= snapshot.volume_24h %></th>
-        <th><%= snapshot.volume %></th>
+        <td><%= snapshot.volume_24h %></td>
+        <td><%= snapshot.volume %></td>
 
-        <th><%= snapshot.status %></th>
-        <th><%= snapshot.session %></th>
-        <th><%= snapshot.prev_close %></th>
-        <th><%= snapshot.last %></th>
+        <td><%= snapshot.status %></td>
+        <td><%= snapshot.session %></td>
+        <td><%= snapshot.prev_close %></td>
+        <td><%= snapshot.last %></td>
 
-        <th><%= snapshot.bid %></th>
-        <th><%= snapshot.ask %></th>
-        <th><%= snapshot.currency_code %></th>
-        <th><%= snapshot.current_time %></th>
-        <th><%= snapshot.transition_time %></th>
+        <td><%= snapshot.bid %></td>
+        <td><%= snapshot.ask %></td>
+        <td><%= snapshot.currency_code %></td>
+        <td><%= snapshot.current_time %></td>
+        <td><%= snapshot.transition_time %></td>
       </tr>
     <%end%>
   </tbody>

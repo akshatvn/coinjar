@@ -1,14 +1,16 @@
-<h1>Currencies</h1>
-<%= button_to 'Get New Snapshot For All Currencies', {controller: "currency_snapshots", action: "capture_all"} , :method=>:post  %>
+
+<h1>All Currencies</h1>
+
 <table>
-  <thead>
+  <thead class="tbl-header">
     <th>Name</th>
     <th>Last Ask</th>
     <th>Last Bid</th>
     <th>Last Last</th>
     <th>Last Updated</th>
-    <th></th>
+    <th><%= button_to 'Get New Snapshot For All Currencies', {controller: "currency_snapshots", action: "capture_all"} , :method=>:post, class: "coinjar-button", style: "background-color:#f2f2f2; color:#337ab7"  %></th>
   </thead>
+  <tbody class="tbl-content">
   <% @currencies.each do |currency| %>
     <tr>
       <td><%= link_to currency.name, currency_path(code: currency.code) %></td>
@@ -16,7 +18,10 @@
       <td><%= currency.last_bid %></td>
       <td><%= currency.last_last %></td>
       <td><%= currency.updated_at %></td>
-      <td><%= button_to 'Get New Snapshot', {controller: "currency_snapshots", action: "capture", code: currency.code} , :method=>:post  %></td>
+      <td><%= button_to 'Get New Snapshot for ' + currency.code, {controller: "currency_snapshots", action: "capture", code: currency.code} , method: :post,  class: "coinjar-button" %></td>
   </tr>
+
   <% end %>
+  </tbody>
 </table>
+
