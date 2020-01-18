@@ -3,12 +3,16 @@ class CurrencySnapshot < ActiveRecord::Base
   API_PATH = "https://data.exchange.coinjar.com/products/%s/ticker"
 
   belongs_to :currency, foreign_key: :currency_code, primary_key: :code
+
   after_commit :update_currency_last_prices
 
-  validates :currency, presence: true
+  validates :currency, :volume_24h, :volume, :transition_time, :status, :session,
+            :prev_close, :last, :current_time, :bid, :ask, :currency_code,
+            :currency, presence: true
+
+
 
   default_scope { order(created_at: :desc)}
-
 
   def self.get currency_code:
     path = API_PATH % currency_code
@@ -32,7 +36,6 @@ class CurrencySnapshot < ActiveRecord::Base
   end
 
   private
-
 
   def update_currency_last_prices
     currency.update_attributes(

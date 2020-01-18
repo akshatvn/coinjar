@@ -1,0 +1,12 @@
+btc_aud_snapshot:
+  volume_24h: 1.5
+  volume: 1.5
+  transition_time: 2020-01-18 10:53:34
+  status: MyString
+  session: 1
+  prev_close: 1.5
+  last: 1.5
+  current_time: 2020-01-18 10:53:34
+  bid: 1.5
+  ask: 1.5
+  currency_code: BTCAUD

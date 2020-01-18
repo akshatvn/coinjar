@@ -7,6 +7,8 @@ gem 'mysql2'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'httparty'
+gem 'capybara'
+gem 'selenium-webdriver'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

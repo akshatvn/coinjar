@@ -1,0 +1,7 @@
+BTCAUD:
+  code: btcaud
+  name: Bitcoin - AUD
+
+ETHAUD:
+  code: ethaud
+  name: Ethereum - AUD
