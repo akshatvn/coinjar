@@ -7,7 +7,8 @@ class CurrenciesController < ApplicationController
   end
 
   def show
-    @snapshots = @currency.currency_snapshots
+    @last_snapshot = @currency.currency_snapshots.first
+    @past_snapshots = @currency.currency_snapshots.where.not(id: @last_snapshot.id).paginate(page: params[:page])
   end
 
 

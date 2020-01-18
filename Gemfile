@@ -9,6 +9,8 @@ gem 'rails-ujs', '~> 0.1.0'
 gem 'httparty'
 gem 'capybara'
 gem 'selenium-webdriver'
+gem 'will_paginate', '3.1.7'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

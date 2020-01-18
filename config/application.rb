@@ -25,5 +25,7 @@ module Coinjar
     config.generators do |generator|
       generator.orm :active_record, primary_key_type: :integer
     end
+    WillPaginate.per_page = 10
+
   end
 end
