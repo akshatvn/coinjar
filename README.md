@@ -8,7 +8,8 @@
 * `git clone https://github.com/akshatvn/coinjar.git`
 * cd into the project directory
 * run `bundle install`
-* run `RAILS_ENV=development rake db:create; RAILS_ENV=test rake db:create`
+* run `RAILS_ENV=development rake db:create`
+* rake db:migrate
 * rake db:seed
 
 ## Running the server

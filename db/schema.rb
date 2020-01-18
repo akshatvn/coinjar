@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2020_01_16_131909) do
 
-  create_table "currencies", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
+  create_table "currencies", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|
     t.string "name", limit: 40, null: false
     t.string "code", limit: 6, null: false
     t.float "last_last"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2020_01_16_131909) do
     t.index ["code"], name: "index_currencies_on_code", unique: true
   end
 
-  create_table "currency_snapshots", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
+  create_table "currency_snapshots", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|
     t.float "volume_24h", null: false
     t.float "volume", null: false
     t.datetime "transition_time", null: false
