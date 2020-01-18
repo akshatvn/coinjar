@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Last Ask</th>
+    <th>Last Bid</th>
+    <th>Last Last</th>
+    <th>Last Updated</th>
+  </thead>
+  <% @currencies.each do |c| %>
+    <tr>
+      <td><%= link_to c.name, currency_path(code: c.code) %></td>
+      <td><%= c.last_ask %></td>
+      <td><%= c.last_bid %></td>
+      <td><%= c.last_last %></td>
+      <td><%= c.updated_at %></td>
+  </tr>
+  <% end %>
+</table>

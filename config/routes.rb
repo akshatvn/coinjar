@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :currencies, only: :index
+
+  get  'currencies/:code' => 'currencies#show',            as: :currency
+
+  post 'currency_snapshots/' => 'currency_snapshots#capture_all', as: :capture_all_currencies
+  post 'currency_snapshots/:code' => 'currency_snapshots#capture', as: :capture_currency
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
