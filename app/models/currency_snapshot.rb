@@ -28,7 +28,6 @@ class CurrencySnapshot < ActiveRecord::Base
         ask: response_data['ask'].to_f,
         currency_code: currency_code
       )
-
     end
   end
 
@@ -39,7 +38,8 @@ class CurrencySnapshot < ActiveRecord::Base
     currency.update_attributes(
       last_last: last,
       last_ask: ask,
-      last_bid: bid
+      last_bid: bid,
+      updated_at: Time.now # required because if price may not have changed since last snapshot
     )
   end
 

@@ -1,3 +1,4 @@
+<%= button_to 'Get New Snapshot For All Currencies', {controller: "currency_snapshots", action: "capture_all"} , :method=>:post  %>
 <table>
   <thead>
     <th>Name</th>
@@ -5,14 +6,16 @@
     <th>Last Bid</th>
     <th>Last Last</th>
     <th>Last Updated</th>
+    <th></th>
   </thead>
-  <% @currencies.each do |c| %>
+  <% @currencies.each do |currency| %>
     <tr>
-      <td><%= link_to c.name, currency_path(code: c.code) %></td>
-      <td><%= c.last_ask %></td>
-      <td><%= c.last_bid %></td>
-      <td><%= c.last_last %></td>
-      <td><%= c.updated_at %></td>
+      <td><%= link_to currency.name, currency_path(code: currency.code) %></td>
+      <td><%= currency.last_ask %></td>
+      <td><%= currency.last_bid %></td>
+      <td><%= currency.last_last %></td>
+      <td><%= currency.updated_at %></td>
+      <td><%= button_to 'Get New Snapshot', {controller: "currency_snapshots", action: "capture", code: currency.code} , :method=>:post  %></td>
   </tr>
   <% end %>
 </table>
