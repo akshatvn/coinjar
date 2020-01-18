@@ -1,7 +1,7 @@
 <%= link_to 'Back to all currencies', currencies_path,  class: "coinjar-button"  %>
 <%= button_to 'Get New Snapshot', {controller: "currency_snapshots", action: "capture", code: @currency.code} , :method=>:post, class: "coinjar-button"  %>
 
-<h2>Last snapshot:</h2>
+<h2>Last snapshot</h2>
 <table>
   <thead>
     <th>VOLUME_24H</th>

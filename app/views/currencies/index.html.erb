@@ -4,10 +4,10 @@
 <table>
   <thead class="tbl-header">
     <th>Name</th>
-    <th>Last Ask</th>
-    <th>Last Bid</th>
-    <th>Last Last</th>
-    <th>Last Updated</th>
+    <th>Ask</th>
+    <th>Bid</th>
+    <th>Last</th>
+    <th>Updated At</th>
     <th><%= button_to 'Get New Snapshot For All Currencies', {controller: "currency_snapshots", action: "capture_all"} , :method=>:post, class: "coinjar-button", style: "background-color:#f2f2f2; color:#337ab7"  %></th>
   </thead>
   <tbody class="tbl-content">
