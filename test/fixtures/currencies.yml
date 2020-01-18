@@ -1,7 +1,34 @@
-BTCAUD:
-  code: btcaud
-  name: Bitcoin - AUD
 
-ETHAUD:
-  code: ethaud
+currency_1:
+  id: 1
+  name: Bitcoin - AUD
+  code: BTCAUD
+  last_last: 12860.0
+  last_ask: 12900.0
+  last_bid: 12860.0
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 01:22:01.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *3
+
+currency_2:
+  id: 2
   name: Ethereum - AUD
+  code: ETHAUD
+  last_last: 249.1
+  last_ask: 252.0
+  last_bid: 246.7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 01:22:01.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *3

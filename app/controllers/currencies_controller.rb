@@ -11,12 +11,13 @@ class CurrenciesController < ApplicationController
     @past_snapshots = @currency.currency_snapshots.where.not(id: @last_snapshot.id).paginate(page: params[:page])
   end
 
-
-
   private
 
   def fetch_currency
-    @currency = Currency.find_by_code(params[:code])
+    unless @currency = Currency.find_by_code(params[:code])
+      flash[:error] = 'Could not find currency with code ' + params[:code]
+      redirect_back fallback_location: currencies_path
+    end
   end
 
 end

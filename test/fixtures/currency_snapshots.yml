@@ -1,12 +1,1914 @@
-btc_aud_snapshot:
-  volume_24h: 1.5
-  volume: 1.5
-  transition_time: 2020-01-18 10:53:34
-  status: MyString
-  session: 1
-  prev_close: 1.5
-  last: 1.5
-  current_time: 2020-01-18 10:53:34
-  bid: 1.5
-  ask: 1.5
+
+currency_snapshot_66:
+  id: 66
+  volume_24h: 168.8
+  volume: 9.3
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 249.1
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *3
+  bid: 246.7
+  ask: 252.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_65:
+  id: 65
+  volume_24h: 60.611
+  volume: 10.52
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12860.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12860.0
+  ask: 12900.0
   currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:05:01.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_64:
+  id: 64
+  volume_24h: 168.8
+  volume: 9.3
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 249.1
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:05:00.000000000 Z
+    zone: *2
+    time: *3
+  bid: 246.7
+  ask: 252.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:05:00.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:05:00.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_63:
+  id: 63
+  volume_24h: 60.611
+  volume: 10.52
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12860.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:04:59.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12860.0
+  ask: 12900.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:04:59.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:04:59.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_62:
+  id: 62
+  volume_24h: 60.611
+  volume: 10.517
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:04:32.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12860.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:04:32.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:04:32.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_61:
+  id: 61
+  volume_24h: 60.611
+  volume: 10.517
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:04:23.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12860.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:04:23.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:04:23.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_60:
+  id: 60
+  volume_24h: 60.611
+  volume: 10.517
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:04:21.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12860.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:04:22.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:04:22.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_59:
+  id: 59
+  volume_24h: 60.611
+  volume: 10.517
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 05:04:20.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12860.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 05:04:20.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 05:04:20.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_58:
+  id: 58
+  volume_24h: 61.198
+  volume: 10.476
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:58:19.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12880.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:58:19.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:58:19.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_57:
+  id: 57
+  volume_24h: 61.379
+  volume: 10.476
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:57:22.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12880.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:57:22.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:57:22.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_56:
+  id: 56
+  volume_24h: 61.379
+  volume: 10.476
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:57:21.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12880.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:57:21.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:57:21.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_55:
+  id: 55
+  volume_24h: 61.379
+  volume: 10.476
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12880.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:57:20.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12880.0
+  ask: 12890.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:57:20.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:57:20.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_54:
+  id: 54
+  volume_24h: 61.227
+  volume: 10.129
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12830.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:46:40.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12830.0
+  ask: 12850.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:46:40.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:46:40.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_53:
+  id: 53
+  volume_24h: 171.8
+  volume: 7.3
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 253.5
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:41:49.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 252.2
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:41:49.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:41:49.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_52:
+  id: 52
+  volume_24h: 60.994
+  volume: 9.896
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12860.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:41:49.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12840.0
+  ask: 12870.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:41:49.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:41:49.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_51:
+  id: 51
+  volume_24h: 171.8
+  volume: 7.3
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 253.5
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:39:25.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 253.2
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:39:25.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:39:25.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_50:
+  id: 50
+  volume_24h: 60.947
+  volume: 9.849
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12920.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:39:23.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12870.0
+  ask: 12880.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:39:23.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:39:23.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_49:
+  id: 49
+  volume_24h: 171.8
+  volume: 7.3
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 253.5
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:39:21.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 253.9
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:39:21.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:39:21.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_48:
+  id: 48
+  volume_24h: 60.947
+  volume: 9.849
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12920.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:39:21.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12870.0
+  ask: 12880.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:39:21.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:39:21.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_47:
+  id: 47
+  volume_24h: 171.8
+  volume: 7.3
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 253.5
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:39:19.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 253.2
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:39:19.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:39:19.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_46:
+  id: 46
+  volume_24h: 60.947
+  volume: 9.849
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12920.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 04:39:18.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12870.0
+  ask: 12880.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 04:39:18.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 04:39:18.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_45:
+  id: 45
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:28:53.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:28:53.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:28:53.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_44:
+  id: 44
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:28:52.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12940.0
+  ask: 12980.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:28:53.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:28:53.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_43:
+  id: 43
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:27:48.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:27:48.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:27:48.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_42:
+  id: 42
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:27:47.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:27:47.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:27:47.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_41:
+  id: 41
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:27:46.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:27:46.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:27:46.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_40:
+  id: 40
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:27:44.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:27:45.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:27:45.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_39:
+  id: 39
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:26:26.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:26:26.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:26:26.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_38:
+  id: 38
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:26:11.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:26:11.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:26:11.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_37:
+  id: 37
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:26:06.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:26:06.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:26:06.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_36:
+  id: 36
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:26:04.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:26:04.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:26:04.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_35:
+  id: 35
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:26:01.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:26:02.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:26:02.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_34:
+  id: 34
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:25:41.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:25:41.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:25:41.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_33:
+  id: 33
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:25:00.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:25:00.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:25:00.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_32:
+  id: 32
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:48.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12970.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:48.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:48.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_31:
+  id: 31
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:42.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:43.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:43.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_30:
+  id: 30
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:39.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:39.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:39.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_29:
+  id: 29
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:36.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:36.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:36.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_28:
+  id: 28
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:31.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:31.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:31.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_27:
+  id: 27
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:30.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:31.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:31.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_26:
+  id: 26
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:27.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:27.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:27.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_25:
+  id: 25
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:26.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:26.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:26.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_24:
+  id: 24
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:25.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:25.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:25.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_23:
+  id: 23
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:23.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:23.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:23.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_22:
+  id: 22
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:23.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:23.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:23.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_21:
+  id: 21
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:20.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:20.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:20.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_20:
+  id: 20
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:17.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:17.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:17.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_19:
+  id: 19
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:17.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:17.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:17.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_18:
+  id: 18
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:15.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:15.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:15.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_17:
+  id: 17
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:15.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:15.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:15.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_16:
+  id: 16
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:24:13.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12950.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:24:13.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:24:13.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_15:
+  id: 15
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:23:57.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12950.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:23:58.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:23:58.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_14:
+  id: 14
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:23:03.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12950.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:23:03.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:23:03.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_13:
+  id: 13
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:22:42.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12950.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:22:42.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:22:42.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_12:
+  id: 12
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:22:40.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:22:40.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:22:40.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_11:
+  id: 11
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:22:40.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12940.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:22:40.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:22:40.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_10:
+  id: 10
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:22:39.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 255.0
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:22:39.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:22:39.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_9:
+  id: 9
+  volume_24h: 69.684
+  volume: 6.755
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12960.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:22:39.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12940.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:22:39.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:22:39.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_8:
+  id: 8
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:18:06.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 254.9
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:18:06.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:18:06.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_7:
+  id: 7
+  volume_24h: 184.5
+  volume: 6.2
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 249.6
+  last: 256.3
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:18:04.000000000 Z
+    zone: *2
+    time: *3
+  bid: 251.3
+  ask: 254.9
+  currency_code: ETHAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:18:04.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:18:04.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_6:
+  id: 6
+  volume_24h: 69.767
+  volume: 6.751
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12940.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:17:41.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12950.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:17:41.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:17:41.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_5:
+  id: 5
+  volume_24h: 69.767
+  volume: 6.751
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12940.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:17:40.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12950.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:17:40.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:17:40.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_4:
+  id: 4
+  volume_24h: 69.767
+  volume: 6.751
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12940.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:16:56.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12920.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:16:56.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:16:56.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_3:
+  id: 3
+  volume_24h: 69.767
+  volume: 6.751
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12940.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:16:46.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:16:46.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:16:46.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_2:
+  id: 2
+  volume_24h: 69.767
+  volume: 6.751
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12940.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:16:44.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12930.0
+  ask: 12960.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:16:44.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:16:44.000000000 Z
+    zone: *2
+    time: *5
+
+currency_snapshot_1:
+  id: 1
+  volume_24h: 69.679
+  volume: 6.676
+  transition_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-01-18 07:50:00.000000000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  status: continuous
+  session: 20470
+  prev_close: 12920.0
+  last: 12940.0
+  current_time: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-01-18 02:10:44.000000000 Z
+    zone: *2
+    time: *3
+  bid: 12950.0
+  ask: 12990.0
+  currency_code: BTCAUD
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2020-01-18 02:10:53.000000000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2020-01-18 02:10:53.000000000 Z
+    zone: *2
+    time: *5

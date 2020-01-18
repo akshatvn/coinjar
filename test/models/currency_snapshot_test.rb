@@ -26,20 +26,14 @@ class CurrencySnapshotTest < ActiveSupport::TestCase
   test "should not save without all the fields from the api present" do
     api_fields = [ :volume_24h, :volume, :transition_time, :status,
       :session, :prev_close, :last, :current_time, :bid, :ask]
-    flag = false
 
     api_fields.each do |api_field_to_exclude|
       attr_hash_dup = @currency_snapshot_attrs.dup
       attr_hash_dup.delete(api_field_to_exclude)
       currency_snapshot = CurrencySnapshot.new(attr_hash_dup)
-      flag ||= !!currency_snapshot.save
-
-      if flag
-        puts "Could save without #{api_field_to_exclude}"
-        break()
-      end
+      assert_not currency_snapshot.save
     end
-    assert_not flag
+
   end
 
   test "should not save without an associated currency" do
@@ -68,6 +62,11 @@ class CurrencySnapshotTest < ActiveSupport::TestCase
             currency.last_bid == currency_snapshot.bid
   end
 
-
+  test "Calling the fetch prices API should work" do
+    Currency.pluck(:code).each do |currency_code|
+      currency_snapshot = CurrencySnapshot.get(currency_code: currency_code)
+      assert currency_snapshot.is_a?(CurrencySnapshot)
+    end
+  end
 
 end

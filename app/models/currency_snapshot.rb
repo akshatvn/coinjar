@@ -11,9 +11,9 @@ class CurrencySnapshot < ActiveRecord::Base
             :currency, presence: true
 
 
-
   default_scope { order(created_at: :desc)}
 
+  # returns db record if saved, else returns nil.
   def self.get currency_code:
     path = API_PATH % currency_code
     response = HTTParty.get(path)
@@ -34,6 +34,7 @@ class CurrencySnapshot < ActiveRecord::Base
       )
     end
   end
+
 
   private
 
